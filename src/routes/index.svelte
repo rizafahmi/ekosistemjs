@@ -1,3 +1,17 @@
+<script>
+  import { onMount } from 'svelte';
+
+  onMount(() => {
+    window.sk=window.sk||function(){(sk.q=sk.q||[]).push(arguments)};
+
+    sk('form', 'init', {
+      id: '65993958bc37',
+      element: '#email-form'
+    });
+
+
+  })
+</script>
 <style>
 
   h1 {
@@ -86,9 +100,11 @@
   <div class="email-form">
     <h2>Segera mengudara</h2>
     <span>Akan dikabarkan melalui email</span>
-    <form action="">
-      <input type="email">
+    <form id="email-form" action="">
+      <input type="email" required id="email" name="email">
       <button type="submit">Ingatkan saya</button>
+
+      <div data-sk-error="email"></div>
     </form>
   </div>
   <div class="cta">
