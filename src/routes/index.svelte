@@ -1,17 +1,3 @@
-<script>
-  import { onMount } from 'svelte';
-
-  onMount(() => {
-    window.sk=window.sk||function(){(sk.q=sk.q||[]).push(arguments)};
-
-    sk('form', 'init', {
-      id: '65993958bc37',
-      element: '#email-form'
-    });
-
-
-  })
-</script>
 <style>
 
   h1 {
@@ -76,7 +62,7 @@
     border: 1em groove #34C2F2;
     padding: 1.5em;
   }
-  a {
+  a.button {
     border: 0.75em groove #34C2F2;
     padding: 1em;
     text-decoration: none;
@@ -100,14 +86,25 @@
   <div class="email-form">
     <h2>Segera mengudara</h2>
     <span>Akan dikabarkan melalui email</span>
-    <form id="email-form" action="">
-      <input type="email" required id="email" name="email">
+    <form method="post"
+      action="https://emailoctopus.com/lists/c8bff2b5-dc4e-11e9-be00-06b4694bee2a/members/embedded/1.3/add"
+      class="email-octopus-form"
+      data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6"
+    >
+      <input id="field_0" name="field_0" type="email" placeholder="alamat email kamu">
+      <input type="text" name="hpc8bff2b5-dc4e-11e9-be00-06b4694bee2a"
+                         tabindex="-1"
+                         style="display: none;"
+                         autocomplete="nope">
+      <input type="hidden"
+             name="successRedirectUrl"
+             value="http://localhost:3001/terimakasih">
       <button type="submit">Ingatkan saya</button>
-
-      <div data-sk-error="email"></div>
     </form>
   </div>
   <div class="cta">
-    <a href="https://rizafahmi.com" target="_blank">Ikuti Survey</a>
+    <a class="button" href="https://rizafahmi.com" target="_blank">Ikuti Survey</a>
   </div>
 </div>
+
+
