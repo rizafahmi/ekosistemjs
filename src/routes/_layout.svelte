@@ -2,7 +2,7 @@
 </script>
 
 <style>
-  main {
+  :global(body) {
     background-color: #262E36;
   }
 </style>
