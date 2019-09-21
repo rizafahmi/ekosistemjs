@@ -98,7 +98,7 @@
                          autocomplete="nope">
       <input type="hidden"
              name="successRedirectUrl"
-             value="http://localhost:3001/terimakasih">
+             value="https://ekosistemjs.herokuapp.com/terimakasih">
       <button type="submit">Ingatkan saya</button>
     </form>
   </div>
