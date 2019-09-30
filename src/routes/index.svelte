@@ -1,3 +1,9 @@
+<script>
+  function showAlert() {
+    alert("Akan segera hadir. Nanti dikabari via email.");
+    document.getElementById('field_0').focus();
+  }
+</script>
 <style>
 
   h1 {
@@ -103,7 +109,7 @@
     </form>
   </div>
   <div class="cta">
-    <a class="button" href="https://rizafahmi.com" target="_blank">Ikuti Survey</a>
+    <a class="button" on:click={showAlert}>Ikuti Survey</a>
   </div>
 </div>
 
