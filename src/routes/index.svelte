@@ -100,11 +100,11 @@
   <p>Statistik dan survey ekosistem JavaScript di Indonesia</p>
 
   <div class="cta">
-    <a target="_blank" href="https://forms.gle/XgMZ1vWxttVSmYes8" class="button">Ikuti Survey</a>
+    <a target="_blank" rel="noreferrer" href="https://forms.gle/XgMZ1vWxttVSmYes8" class="button">Ikuti Survey</a>
   </div>
   <div class="email-form">
     <h2>Hasil survey segera mengudara!</h2>
-    <span>Bantu kami mengumpulkan data untuk mencari <em>insight</em> dengan mengikuti <a href="https://forms.gle/XgMZ1vWxttVSmYes8" target="_blank">survey singkat ini</a>. Hasilnya akan segera dikabarkan melalui email.</span>
+    <span>Bantu kami mengumpulkan data untuk mencari <em>insight</em> dengan mengikuti <a href="https://forms.gle/XgMZ1vWxttVSmYes8" target="_blank" rel="noreferrer">survey singkat ini</a>. Hasilnya akan segera dikabarkan melalui email.</span>
     <form method="post"
       action="https://emailoctopus.com/lists/c8bff2b5-dc4e-11e9-be00-06b4694bee2a/members/embedded/1.3/add"
       class="email-octopus-form"
