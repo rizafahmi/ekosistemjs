@@ -1,8 +1,4 @@
 <script>
-  function showAlert() {
-    alert("Akan segera hadir. Nanti dikabari via email.");
-    document.getElementById('field_0').focus();
-  }
 </script>
 <style>
 
@@ -79,6 +75,20 @@
       font-size: 4em;
     }
   }
+  @media (max-width: 480px) {
+    .email-form {
+      text-align: center;
+      border: 0.5em groove #34C2F2;
+      padding: 1.5em;
+      margin: 1em;
+    }
+    input {
+      font-size: 1em;
+      background-color: #262E36;
+      /* background-color: red; */
+      border: 0.1em groove #34C2F2;
+    }
+  }
 </style>
 
 <svelte:head>
@@ -89,9 +99,12 @@
   <h1><span class="ekosistem">Ekosistem</span> <span class="javascript">JavaScript</span> <span class="indonesia">di Indonesia</span></h1>
   <p>Statistik dan survey ekosistem JavaScript di Indonesia</p>
 
+  <div class="cta">
+    <a target="_blank" href="https://forms.gle/XgMZ1vWxttVSmYes8" class="button">Ikuti Survey</a>
+  </div>
   <div class="email-form">
-    <h2>Segera mengudara</h2>
-    <span>Akan dikabarkan melalui email</span>
+    <h2>Hasil survey segera mengudara!</h2>
+    <span>Bantu kami mengumpulkan data untuk mencari <em>insight</em> dengan mengikuti <a href="https://forms.gle/XgMZ1vWxttVSmYes8" target="_blank">survey singkat ini</a>. Hasilnya akan segera dikabarkan melalui email.</span>
     <form method="post"
       action="https://emailoctopus.com/lists/c8bff2b5-dc4e-11e9-be00-06b4694bee2a/members/embedded/1.3/add"
       class="email-octopus-form"
@@ -107,9 +120,6 @@
              value="https://ekosistemjs.herokuapp.com/terimakasih">
       <button type="submit">Ingatkan saya</button>
     </form>
-  </div>
-  <div class="cta">
-    <a class="button" on:click={showAlert}>Ikuti Survey</a>
   </div>
 </div>
 
