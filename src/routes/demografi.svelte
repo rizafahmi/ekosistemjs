@@ -1,5 +1,6 @@
 <script>
   import Image from '../components/Image.svelte';
+  import NavBottom from '../components/NavBottom.svelte';
 </script>
 <div class="container">
   <h1>Demografi</h1>
@@ -23,8 +24,10 @@
 
   <Image title="Jenis Kelamin" name="gender" />
 
-  <div class="nav-bottom">
-    <a class="button" href="/">&lt; Pengantar</a>
-    <a class="button" href="/komunitas">Komunitas &gt;</a>
-  </div>
+  <NavBottom 
+    prevHref="/" 
+    prevLabel="Pengantar" 
+    nextHref="/komunitas"
+    nextLabel="Komunitas"
+    />
 </div>
