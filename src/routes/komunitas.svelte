@@ -11,6 +11,6 @@
   <NavBottom 
     prevHref="/demografi" 
     prevLabel="Demografi" 
-    nextHref="/ketertarikan" 
-    nextLabel="Ketertarikan" />
+    nextHref="/belajar" 
+    nextLabel="Belajar" />
 </div>
