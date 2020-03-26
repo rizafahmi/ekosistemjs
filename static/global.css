@@ -10,13 +10,19 @@
 
 body {
   margin: 0;
-  font-family: New, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: New, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  color: #34C2F2;
+  color: #34c2f2;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 0.5em 0;
   font-weight: 400;
   line-height: 1.2;
@@ -24,6 +30,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2em;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+img {
+  max-width: 60%;
 }
 
 a {
@@ -37,6 +53,98 @@ code {
   background-color: #f0f0f0;
   padding: 0.2em 0.4em;
   border-radius: 2px;
+}
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+  color: #ff6260;
+  font-family: 'Minecrafter';
+  text-shadow: 8px 8px rgba(78, 53, 60, 255);
+}
+h1 > .ekosistem {
+  color: #ff6260;
+}
+h1 > .javascript {
+  color: #645aff;
+}
+h1 > .indonesia {
+  color: #34c2f2;
+}
+h2 {
+  font-family: Minecrafter;
+  font-size: 1.5em;
+  text-shadow: 4px 4px rgba(78, 53, 60, 255);
+  text-align: center;
+  color: #1dd8df;
+}
+
+.email-form {
+  text-align: center;
+  border: 0.5em groove #34c2f2;
+  padding: 1.5em;
+  margin: 4em;
+}
+form {
+  margin: 0.5em;
+}
+.cta {
+  display: flex;
+  justify-content: center;
+}
+input {
+  font-family: New;
+  font-size: 1.25em;
+  padding: 0.5em;
+  color: #34c2f2;
+  background-color: #262e36;
+  border: 0.2em groove #34c2f2;
+}
+button {
+  font-family: New;
+  font-size: 1em;
+  padding: 0.6em 0.5em 0.6em 0.5em;
+  border: 0.5em groove #34c2f2;
+  background-color: #262e36;
+  color: #34c2f2;
+}
+
+.container {
+  border: 1em groove #34c2f2;
+  padding: 1.5em;
+}
+a.button {
+  border: 0.75em groove #34c2f2;
+  padding: 1em;
+  text-decoration: none;
+  font-family: Minecrafter;
+}
+.nav-bottom {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 480px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+@media (max-width: 480px) {
+  .email-form {
+    text-align: center;
+    border: 0.5em groove #34c2f2;
+    padding: 1.5em;
+    margin: 1em;
+  }
+  input {
+    font-size: 1em;
+    background-color: #262e36;
+    /* background-color: red; */
+    border: 0.1em groove #34c2f2;
+  }
 }
 
 @media (min-width: 400px) {
