@@ -11,8 +11,8 @@
 <h3>{title}</h3>
 <a href="./img/{name}.png" target="_blank">
   <picture>
-    <source type="image/webp" srcset="./img/{name}.webp" />
-    <source type="image/png" srcset="./img/{name}.png" />
-    <img src="img/{name}.png" alt="{name}" />
+    <source type="image/webp" srcset="./img/{name}.webp" loading="lazy" />
+    <source type="image/png" srcset="./img/{name}.png" loading="lazy" />
+    <img src="img/{name}.png" alt="{name}" loading="lazy" />
   </picture>
 </a>
