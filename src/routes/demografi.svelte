@@ -12,31 +12,46 @@
   <h2>Responden per Lokasi</h2>
   <h3>Persentase per Lokasi</h3>
   <a href="./domisili-persentase.png" target="_blank">
-    <img src="./domisili-persentase.png" />
+    <img alt="persentase domisili" src="./domisili-persentase.png" />
   </a>
 
   <h3>Peta Persebaran</h3>
   <a href="./domisili.png" target="_blank">
-    <img style="max-width: 100%" src="./domisili.png" />
+    <img alt="domisili" style="max-width: 100%" src="./domisili.png" />
+  </a>
+
+  <h3>Kisaran Umur</h3>
+  <a href="./umur.png" target="_blank">
+    <img alt="umur" src="./umur.png" />
   </a>
 
   <h3>Pengalaman Kerja</h3>
   <a href="./pengalaman.png" target="_blank">
-    <img src="./pengalaman.png" />
+    <img alt="pengalaman" src="./pengalaman.png" />
   </a>
 
   <h3>Kisaran Gaji</h3>
   <a href="./gaji.png" target="_blank">
-    <img style="max-width: 90%" src="./gaji.png" />
+    <img alt="gaji" style="max-width: 90%" src="./gaji.png" />
   </a>
 
   <h3>Perusahaan</h3>
   <a href="./pekerja.png" target="_blank">
-    <img style="max-width: 90%" src="./pekerja.png" />
+    <img alt="pekerja" style="max-width: 90%" src="./pekerja.png" />
   </a>
 
-  <h3>Kegiatan</h3>
+  <h3>Kegiatan/Pekerjaan</h3>
   <a href="./kegiatan.png" target="_blank">
-    <img src="./kegiatan.png" />
+    <img alt="kegiatan" src="./kegiatan.png" />
   </a>
+
+  <h3>Jenis Kelamin</h3>
+  <a href="./gender.png" target="_blank">
+    <img alt="gender" src="./gender.png" />
+  </a>
+
+  <div class="nav-bottom">
+    <a class="button" href="/">&lt; Pengantar</a>
+    <a class="button" href="/komunitas">Komunitas &gt;</a>
+  </div>
 </div>
