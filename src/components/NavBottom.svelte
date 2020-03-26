@@ -7,5 +7,7 @@
 
 <div class="nav-bottom">
   <a class="button" href="{prevHref}">&lt; {prevLabel}</a>
-  <a class="button" href="{nextHref}">{nextLabel} &gt;</a>
+  {#if nextHref}
+    <a class="button" href="{nextHref}">{nextLabel} &gt;</a>
+  {/if}
 </div>
