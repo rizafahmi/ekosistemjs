@@ -2,6 +2,7 @@
   import Image from '../components/Image.svelte';
   import NavBottom from '../components/NavBottom.svelte';
 </script>
+
 <div class="container">
   <h1>Demografi</h1>
   <p>Total responden adalah 165 orang dari berbagai latar belakang dan tersebar di berbagai lokasi. Meskipun awalnya survei ini ditujukan untuk developer frontend, namun tidak sedikit pula yang bekerja sebagai developer backend hingga para pengambil keputusan seperti team lead, Vice President of Engineering hingga C-level seperti CTO juga turut serta sebagai responden.</p>
