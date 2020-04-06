@@ -2,7 +2,9 @@
 
 </script>
 <style>
-
+ ul {
+     margin-left: 10em;
+ }
 </style>
 
 <svelte:head>
@@ -22,6 +24,16 @@
   <h3>Terimakasih!</h3>
   <p>Survei dilakukan dari September 2019 hingga Januari 2020 dan berhasil mengumpulkan 165 responden. Terimakasih buat semua atensi dan partisipasinya, teman-teman! Jika teman-teman ingin bertanya, memberikan masukan atau sekedar hai silakan email ke <a href="mailto:rizafahmi@gmail.com">saya di alamat berikut.</a></p>
   <p style="text-align: right; margin-right: 1em;"><strong>--riza</strong></p>
+
+  <h3>Daftar Isi</h3>
+  <ul>
+    <ol><a href="/demografi">1. Demografi</a></ol>
+    <ol><a href="/komunitas">2. Komunitas</a></ol>
+    <ol><a href="/belajar">3. Proses Belajar</a></ol>
+    <ol><a href="/memilih">4. Memilih Teknologi</a></ol>
+    <ol><a href="/testing">5. Testing</a></ol>
+    <ol><a href="/kesimpulan">6. Kesimpulan</a></ol>
+  </ul>
 
   <div class="nav-bottom">
     <a class="button" href="/demografi">Mulai</a>
